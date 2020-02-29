@@ -15,7 +15,7 @@ public class Taxi {
     public double getDistancePrice() {
         if (distance <= 2) {
             distancePrice = 6;
-        } else if (2 < distance && distance <= 8) {
+        } else if (distance <= 8) {
             distancePrice = 6 + (distance - 2) * 0.8;
         } else {
             distancePrice = 10.8 + (distance - 8) * 1.2;
